@@ -1,0 +1,15 @@
+### Get Bug Count by Project
+GET http://localhost:8080/api/analytics/bugs-by-project
+Accept: application/json
+
+### Get Bug Count by Status
+GET http://localhost:8080/api/analytics/bugs-by-status
+Accept: application/json
+
+### Get Bug Count by Priority
+GET http://localhost:8080/api/analytics/bugs-by-priority
+Accept: application/json
+
+### Get Top 3 Projects with Most Bugs
+GET http://localhost:8080/api/analytics/top-projects
+Accept: application/json
